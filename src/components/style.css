@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.searchbar{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchIcon{
+    padding: 12px 10px 12px 5px;
+    font-size: 17px;
+    border-radius: 0 100px 100px 0;
+    background-color: rgb(52, 52, 52);
+}
+
+.searchIcon:hover {
+    cursor: pointer;
+    background-color: rgb(83, 83, 83);
+}
+
+input {
+    width: 60%;
+    padding: 10px 15px;
+    border-radius: 100px 0 0 100px;
+    border: none;
+    font-size: 17px;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(71, 85, 154);
+}
+
+header{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.videoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+}
+
+.thumbnail img {
+    border-radius: 12px;
+}
+
+.thumbnail {
+    border-radius: 12px;
+    position: relative;
+}
+
+.duration {
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 12px;
+    right: 7px;
+}
+
+.channelIcon .logo img{
+    border-radius: 36px;
+}
+
+.details {
+    display: flex;
+    gap: 15px;
+    padding-top: 6px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.others .title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 3px;
+}
+
+.others .channelName {
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.circle {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 20px;
+}
+
+.views,  .time {
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+    font-weight: 500;
+}
+
+.part2 {
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    gap: 6px;
+}
+
+
+.box{
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
